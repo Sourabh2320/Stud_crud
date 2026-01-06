@@ -102,3 +102,22 @@ Response (200 OK)
 ```json
 Student deleted with id 1
 ```
+
+## Testing
+
+This project includes both unit testing and integration testing.
+
+### Unit Testing
+- Service layer is tested using **JUnit 5** and **Mockito**
+- Repository layer is mocked
+- CRUD business logic is tested in isolation
+
+### Integration Testing
+- Controller endpoints are tested using **Spring Boot Test** and **MockMvc**
+- Real HTTP requests are simulated
+- End-to-end flow from Controller → Service → Repository → Database is verified
+
+All tests pass successfully.
+<br><br>
+<img width="1919" height="1079" alt="Screenshot 2026-01-06 172150" src="https://github.com/user-attachments/assets/8aca8afb-ee59-40b6-b3b7-35865805f01b" />
+
